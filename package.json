@@ -1,0 +1,19 @@
+{
+  "name": "js-poo-heracles-labour-1",
+  "version": "1.0.0",
+  "description": "Prérequis : cloner ce _dépôt_.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && nodemon dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2"
+  }
+}
