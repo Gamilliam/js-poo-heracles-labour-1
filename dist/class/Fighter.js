@@ -1,14 +1,13 @@
 "use strict";
-/* Fighter class definition */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Fighter = void 0;
-const MAX_LIFE = 100;
+const const_1 = require("../const");
 class Fighter {
     constructor(name, strength, dexterity) {
         this.name = name;
         this.strength = strength;
         this.dexterity = dexterity;
-        this.life = MAX_LIFE;
+        this.life = const_1.MAX_LIFE;
     }
     ;
     fight(defender) {

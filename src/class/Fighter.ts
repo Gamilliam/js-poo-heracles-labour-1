@@ -1,13 +1,6 @@
 /* Fighter class definition */
-
-const MAX_LIFE = 100;
-
-interface IFighter {
-    name:string;
-    strength:number;
-    dexterity: number;
-    life: number;
-}
+import { IFighter, IBighter } from "../Interface"; 
+import { MAX_LIFE } from "../const"; 
 
 export class Fighter implements IFighter{
     name:string; strength: number; dexterity:number; life:number; 
